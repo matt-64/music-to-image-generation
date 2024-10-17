@@ -1,0 +1,2 @@
+alias pip="pip install --upgrade && pip freeze > $(dirname $(dirname $(realpath $(which python))))/requirements.txt"
+
