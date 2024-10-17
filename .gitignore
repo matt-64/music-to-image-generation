@@ -122,6 +122,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+env-Music-imagec-generator/
 .env
 .venv
 env/

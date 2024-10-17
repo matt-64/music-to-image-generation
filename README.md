@@ -20,5 +20,5 @@ music-to-image-generation/
 ├── README.md                # Ce fichier de description du projet
 ├── requirements.txt         # Liste des dépendances Python
 ├── .gitignore               # Fichiers à ignorer par Git
-└── venv/                    # Environnement virtuel (inclus dans .gitignore)
+└── env-Music-imagec-generator/                   # Environnement virtuel (inclus dans .gitignore)
 # music-to-image-generation
