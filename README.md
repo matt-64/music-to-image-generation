@@ -36,18 +36,10 @@ cd music-to-image-generation
 pip install -r requirements.txt
 ⚙️ Usage
 1. Analyze Local Audio
-To analyze a local audio file, use the following command:
 
 
-Copier le code
-python analyze_audio.py --file_path /path/to/your/audio/file.wav
 2. Analyze YouTube or Spotify Audio
-To analyze an online audio file from YouTube without downloading it locally:
 
-
-Copier le code
-python analyze_audio.py --url "https://www.youtube.com/watch?v=example"
-Note: Ensure you have yt-dlp and ffmpeg installed for smooth online streaming.
 
 📊 Audio Features Extracted
 Here are the audio features currently extracted by the tool:
@@ -63,8 +55,6 @@ Each feature is visualized using matplotlib to provide graphical insights into t
 🌐 Flask API (Future)
 A lightweight Flask API is currently in development. This will allow users to submit audio URLs via API calls and receive the extracted features in JSON format. Stay tuned for updates!
 
-🎬 Demo (Optional)
-Here’s a quick demo showing how the tool works with YouTube URLs:
 
 
 🛠️ Roadmap
@@ -73,9 +63,6 @@ Here’s a quick demo showing how the tool works with YouTube URLs:
  Implement Flask API for remote analysis
  Add support for SoundCloud and other platforms
  Real-time audio processing for live performances
-🧪 Running Tests
-Unit tests are provided to ensure the robustness of the extraction pipeline. Run the tests using:
-
 
 
 📄 License
