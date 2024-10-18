@@ -27,7 +27,7 @@ To install and run the project, follow these steps:
 
 
 # Clone the repository
-git clone https://github.com/your-username/music-to-image-generation.git
+git clone https://github.com/matt-64/music-to-image-generation.git
 
 # Navigate to the project directory
 cd music-to-image-generation
@@ -38,13 +38,13 @@ pip install -r requirements.txt
 1. Analyze Local Audio
 To analyze a local audio file, use the following command:
 
-bash
+
 Copier le code
 python analyze_audio.py --file_path /path/to/your/audio/file.wav
 2. Analyze YouTube or Spotify Audio
 To analyze an online audio file from YouTube without downloading it locally:
 
-bash
+
 Copier le code
 python analyze_audio.py --url "https://www.youtube.com/watch?v=example"
 Note: Ensure you have yt-dlp and ffmpeg installed for smooth online streaming.
@@ -76,18 +76,7 @@ Here’s a quick demo showing how the tool works with YouTube URLs:
 🧪 Running Tests
 Unit tests are provided to ensure the robustness of the extraction pipeline. Run the tests using:
 
-bash
-Copier le code
-python -m unittest discover tests/
-📝 Contributing
-We welcome contributions to improve this tool! To get started:
 
-Fork the repository
-Create a new branch (git checkout -b feature-branch)
-Commit your changes (git commit -m 'Add some feature')
-Push to the branch (git push origin feature-branch)
-Open a pull request
-Please read our Contributing Guide for more details.
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -95,14 +84,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 🤝 Acknowledgements
 This project leverages Librosa for audio analysis and yt-dlp for streaming YouTube content.
 Inspired by the power of Flask for building flexible web APIs.
-💬 Get in Touch
-For any questions, feel free to reach out via email or open an issue on the repository. We're open to suggestions and collaboration!
 
 Let's revolutionize the way we analyze music! 🎶🎨
-
-yaml
-Copier le code
-
----
-
-Ce fichier README contient toutes les sections importantes pour rendre ton projet attrayant et professionnel. Copie simplement ce contenu dans un fichier `README.md` et ajuste les liens et les informations (comme l'email, le lien GitHub, etc.) en fonction de ton projet.
